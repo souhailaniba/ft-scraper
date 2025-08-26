@@ -1,0 +1,98 @@
+# Sensitive configuration
+config/settings.py
+*.env
+.env
+
+# Large data files (use Git LFS or exclude)
+data/raw/*.json
+data/raw/*.txt
+data/processed/*.json
+data/demo/*.json
+!data/samples/
+!data/samples/*.json
+
+# Log files
+data/logs/*.log
+*.log
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+venv/
+.venv/
+env/
+ENV/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+package-lock.json
+yarn.lock
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.settings/
+
+# Operating System
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Temporary and checkpoint files
+*.tmp
+*.temp
+checkpoint*.json
+*_checkpoint.json
+.cache/
+
+# Browser extension (if included)
+bypass-paywalls*/
+
+# Personal notes and drafts
+notes.md
+TODO.md
+draft_*
+
+# Drafts and development files  
+drafts/
+drafts/*.json
+drafts/*.txt
+
+# Files over 50MB
+*.json

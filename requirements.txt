@@ -1,0 +1,51 @@
+# --- Core scraping / parsing ---
+advertools==0.13.2
+httpx[http2]==0.27.2
+aiolimiter==1.1.0
+requests>=2.31.0
+beautifulsoup4==4.12.3
+lxml==5.3.0
+newspaper4k==0.9.3.1
+tldextract==5.1.2
+python-dateutil==2.9.0.post0
+
+# --- Data / serialization ---
+pandas==2.2.2
+pyarrow==17.0.0
+fastparquet==2024.5.0
+orjson==3.10.7
+pydantic==2.8.2
+
+# --- NLP / analysis ---
+scikit-learn==1.5.1
+umap-learn==0.5.6
+#hdbscan==0.8.38.post1
+bertopic==0.16.4
+
+# --- NER (GLiNER) ---
+gliner==0.2.13
+
+# Web scraping utilities
+urllib3>=1.26.0
+
+# Transformers stack (CPU by default)
+transformers==4.43.3
+torch==2.3.1
+#torchaudio==2.3.1
+
+# Development dependencies (optional)
+# pytest>=7.0.0
+# black>=23.0.0
+# flake8>=6.0.0
+
+# MongoDB Dependencies for FT Scraper
+
+# Core MongoDB driver
+pymongo>=4.5.0
+
+# Optional: For advanced MongoDB operations
+motor>=3.3.0  # Async MongoDB driver (if needed later)
+
+# Optional: For data validation and schema management
+marshmallow>=3.20.0
+jsonschema>=4.19.0
